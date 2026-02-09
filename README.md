@@ -27,11 +27,18 @@ We use a **sample dump of Simple English Wikipedia**:
 This dataset is suitable for word count experiments and demonstrates distributed processing without being too large for EMR Learner Lab.
 
 Project Structure
+
 project/
-├── mapper.py       # Python script for mapping
-├── reducer.py      # Python script for reducing
-├── README.md       # This file
-└── corpus.txt      # Sample Wikipedia text (stored in HDFS)
+
+mapper.py   
+
+reducer.py
+
+README.md
+
+corpus.txt
+
+
 Prerequisites
 
 Amazon EMR cluster with Hadoop installed
